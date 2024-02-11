@@ -602,10 +602,6 @@ video {
   top: 0px;
 }
 
-.top-\[\] {
-  top: ;
-}
-
 .top-\[90px\] {
   top: 90px;
 }
@@ -639,6 +635,10 @@ video {
   display: grid;
 }
 
+.h-0 {
+  height: 0px;
+}
+
 .h-\[3000px\] {
   height: 3000px;
 }
@@ -647,24 +647,12 @@ video {
   height: 640px;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[9\] {
-  height: 9;
-}
-
 .h-\[90px\] {
   height: 90px;
 }
 
-.h-0 {
-  height: 0px;
+.h-full {
+  height: 100%;
 }
 
 .w-\[567px\] {
@@ -760,24 +748,10 @@ video {
   color: rgb(41 47 54 / var(--tw-text-opacity));
 }
 
-.shadow {
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 .transition-all {
@@ -875,6 +849,12 @@ h6 {
   background-color: rgb(184 140 93 / var(--tw-bg-opacity));
 }
 
+.nav-is-open {
+  display: flex;
+  height: 350px;
+  padding: 1.5rem;
+}
+
 @media (min-width: 960px) {
   .lg\:relative {
     position: relative;
@@ -898,10 +878,6 @@ h6 {
 
   .lg\:items-start {
     align-items: flex-start;
-  }
-
-  .lg\:border {
-    border-width: 1px;
   }
 
   .lg\:border-none {
