@@ -44,34 +44,17 @@ h6 {
   @apply h-[350px] p-6 flex;
 }
 
-
-
 /*  ********************************************** Ilyas's Part ************************************************* */
 
+/* swiper pagination*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  @apply bg-primary;
+}
 
 /*  ********************************************** Amal's Part ************************************************* */
-
-
-
-
-
-
-
-
 
 
 
@@ -93,16 +76,4 @@ h6 {
 
 
 
-
-
-
 /*  ********************************************** Selma's Part ************************************************* */
-
-
-
-
-
-
-
-
-
